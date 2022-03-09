@@ -1,0 +1,130 @@
+{
+  "main": {
+    "name":"Felix Jr Lazarte",
+    "description":"Innovative Front End Developer with 5 years experience building and maintaining responsive websites. Proficient in HTML, CCS, Javascript; plus modern libraries and frameworks (ReactJS). Passionate about usability and possess working knowlegde of Adobe Photoshop.",
+    "image":"profile.jpg",
+    "bio":"Innovative Front End Developer with 5 years experience building and maintaining responsive websites. Proficient in HTML, CCS, Javascript; plus modern libraries and frameworks (ReactJS). Passionate about usability and possess working knowlegde of Adobe Photoshop.",
+    "contactmessage":"Get In Touch.",
+    "email": "felixjr.lazarte@gmail.com",
+    "phone": "+63 956 146 1611 | +63 935 398 4072",
+    "github":"https://github.com/felixjrlazarte",
+    "project":"https://github.com/felixjrlazarte",
+    "address":{
+      "street":"135 Dahlia St. Zone 2 San Miguel",
+      "city":"Iriga City",
+      "state":"Camarines Sur",
+      "zip": "4431"
+    },
+    "website": "/",
+    "resumedownload":"/resume/resume.pdf",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"/",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/felix-jr-lazarte-90b417124/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/felixjrlazarte",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Camarines Sur Polytechnic Colleges",
+        "degree":"Bachelor of Science in Computer Science",
+        "graduated":"March 2017",
+        "description":"Member, College Programming team"
+      }
+    ],
+    "work":[
+      {
+        "company":"PayMaya Philippines Inc.",
+        "title":"Senior Software Engineer",
+        "years":"April 2020 - March 2022",
+        "description":"Creating new features, functionality and capabilities on the PayMaya Business Manager site using HTML, CSS, Javascript and ReactJS"
+      },
+      {
+        "company":"Samsung R&D Institute Philippines",
+        "title":"Software Engineer",
+        "years":"May 2018 - April 2020",
+        "description":"Creating new features, functionality and capabilities on the Samsung Cloud Webview application using HTML, CSS, Javascript and ReactJS"
+      },
+      {
+        "company":"Valueline Systems & Solutions Corporation",
+        "title":"Associate Software Engineer",
+        "years":"April 2017 - May 2018"
+      }
+    ],
+    "skills":[
+      {
+        "name":"ReactJS",
+        "level":"100%"
+      },
+      {
+        "name":"HTML5",
+        "level":"100%"
+      },
+      {
+        "name":"CSS",
+        "level":"100%"
+      },
+      {
+        "name":"Javascript",
+        "level":"100%"
+      },
+      {
+        "name":"Css in JS",
+        "level":"100%"
+      },
+      {
+        "name":"Unit Testing (Jest, Enzyme, React Testing Library)",
+        "level":"100%"
+      },
+      {
+        "name":"Micro Frontends (Single SPA)",
+        "level":"70%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"PayMaya Business Manager",
+        "category":"websites",
+        "image":"pbm.png",
+        "url":"https://pbm.paymaya.com/"
+      },
+      {
+        "title":"Samsung Cloud",
+        "category":"websites",
+        "image":"samsung-cloud.png",
+        "url":"https://support.samsungcloud.com/#/login"
+      },
+      {
+        "title":"Macondray Lending and Loan System",
+        "category":"websites",
+        "image":"macondray.png",
+        "url":"https://www.macondrayfinance.ph/login/headoffice/1/85faa661fe48fe9ed19b4e41b6b6f40916dff726"
+      }
+    ]
+  }
+}
