@@ -52,7 +52,25 @@
         "school":"Camarines Sur Polytechnic Colleges",
         "degree":"Bachelor of Science in Computer Science",
         "graduated":"March 2017",
-        "description":"Member, College Programming team"
+        "description":"Member, College Programming team",
+        "achievements": [
+          {
+            "title": "6th placer - Ateneo Programming Challenge (APC)",
+            "dateIssued": "Jan 2017"
+          },
+          {
+            "title": "4th placer - Ateneo Programming Challenge (APC)",
+            "dateIssued": "Jan 2016"
+          },
+          {
+            "title": "9th placer - Philippine Southern Luzon Programming Challenge (ACM-ICPC)",
+            "dateIssued": "Jan 2016"
+          },
+          {
+            "title": "7th placer - Philippine Southern Luzon Programming Challenge (ACM-ICPC)",
+            "dateIssued": "Jan 2016"
+          }
+        ]
       }
     ],
     "work":[

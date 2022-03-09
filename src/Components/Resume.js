@@ -24,6 +24,16 @@ class Resume extends Component {
             <em className="date">{education.graduated}</em>
           </p>
           <p>{education.description}</p>
+          <p>Achievements</p>
+          {
+            education.achievements.map(({ title, dateIssued }) => (
+              <p className="achievements">
+                <span>&bull;</span>
+                {title} <span>&bull;</span>
+                <em className="date">{dateIssued}</em>
+              </p> 
+            ))
+          }
         </div>
       );
     });

@@ -267,7 +267,16 @@ ul#nav li.current a { color: #fe6928; }
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+
+#resume .achievements {
+   color: #6E7881;
+   margin-bottom: 8px;
+   margin-top: 3px;
+   margin-left: 10px;
+}
+
+#resume .info span,
+#resume .achievements span {
    margin-right: 5px;
    margin-left: 5px;
 }
@@ -1016,6 +1025,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .project-btn{
    background-color: #1abc9c !important;
+   align-self: center;
 }
 .github-btn{
    background-color: #34495e !important;
