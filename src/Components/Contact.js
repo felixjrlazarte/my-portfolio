@@ -53,14 +53,14 @@ const Contact = (props) => {
                   <label htmlFor="contactName">
                     Name <span className="required">*</span>
                   </label>
-                  <input type="text" defaultValue="" size="35" id="contactName" name="from_name" />
+                  <input type="text" defaultValue="" size="35" id="contactName" name="from_name" required />
                 </div>
 
                 <div>
                   <label htmlFor="contactEmail">
                     Email <span className="required">*</span>
                   </label>
-                  <input type="text" defaultValue="" size="35" id="contactEmail" name="user_email" />
+                  <input type="text" defaultValue="" size="35" id="contactEmail" name="user_email" required />
                 </div>
 
                 <div>
@@ -72,7 +72,7 @@ const Contact = (props) => {
                   <label htmlFor="contactMessage">
                     Message <span className="required">*</span>
                   </label>
-                  <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
+                  <textarea cols="50" rows="15" id="contactMessage" name="message" required></textarea>
                 </div>
 
                 <div>
