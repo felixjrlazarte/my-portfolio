@@ -83,6 +83,8 @@ header .social {
    margin: 24px 0;
    padding: 0;
    font-size: 30px;
+   display: flex;
+   justify-content: center;
 }
 header .social li {
    display: inline-block;
@@ -91,6 +93,23 @@ header .social li {
 }
 header .social li a { color: #fff; }
 header .social li a:hover { color: #0762f9; }
+@media only screen and (max-width: 375px) {
+   header .social {
+      flex-direction: column;
+   }
+
+   .social .btn:first-child {
+      margin-right: 0 !important;
+   }
+
+   .project-btn{
+      width: 100%;
+   }
+
+   .github-btn{
+      width: 100%;
+   }
+ }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -1029,4 +1048,9 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+
+canvas {
+   background: url(../images/wallpaper1.jpg) no-repeat center center fixed !important;
+   background-size: cover;
 }
