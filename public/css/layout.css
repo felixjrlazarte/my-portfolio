@@ -36,6 +36,9 @@ header {
    
    text-align: center;
    overflow: hidden;
+
+   background: url(../images/wallpaper-1.jpg) no-repeat center center fixed !important;
+   background-size: cover;
 }
 
 /* vertically center banner section */
@@ -62,7 +65,7 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 18px/1.9em 'opensans-bold', serif;
    color: #ddd;
    margin: 0 auto;
    width: 70%;
@@ -303,6 +306,12 @@ ul#nav li.current a { color: #fe6928; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
+#resume .workdescription {
+   margin: 0 0 5px 0;
+}
+
+#resume .workdescription:last-child { margin: 0 0 30px 0; }
 
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -1051,6 +1060,6 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 canvas {
-   background: url(../images/wallpaper1.jpg) no-repeat center center fixed !important;
+   background: url(../images/wallpaper2.jpg) no-repeat center center fixed !important;
    background-size: cover;
 }
