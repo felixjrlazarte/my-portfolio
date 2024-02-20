@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Zmage from "react-zmage";
 import Slide from "react-reveal";
 
 class Resume extends Component {
@@ -14,7 +15,6 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -31,7 +31,7 @@ class Resume extends Component {
                 <span>&bull;</span>
                 {title} <span>&bull;</span>
                 <em className="date">{dateIssued}</em>
-              </p> 
+              </p>
             ))
           }
         </div>
@@ -56,15 +56,13 @@ class Resume extends Component {
     });
 
     const skills = this.props.data.skills.map((skills) => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
+      let skillImage = "images/skills/" + skills.image;
 
       return (
-        <li key={skills.name}>
-          <span style={{ width, backgroundColor: "#ebeeee" }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
+        <div>
+          <Zmage alt={skills.name} src={skillImage} width={50} />
+          <div>{skills.name}</div>
+        </div>
       );
     });
 
@@ -106,12 +104,14 @@ class Resume extends Component {
               </h1>
             </div>
 
-            <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
+            <div style={{
+              display: "flex",
+              gap: "20px",
+              flexWrap: "wrap",
+              padding: "20px"
+            }}
+            >
+              {skills}
             </div>
           </div>
         </Slide>

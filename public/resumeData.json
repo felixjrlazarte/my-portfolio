@@ -138,31 +138,47 @@
     "skills":[
       {
         "name":"ReactJS",
-        "level":"100%"
+        "image":"react.png"
+      },
+      {
+        "name":"NextJS",
+        "image":"next.png"
       },
       {
         "name":"HTML5",
-        "level":"100%"
+        "image":"html.png"
       },
       {
         "name":"CSS",
-        "level":"100%"
+        "image":"css.png"
       },
       {
         "name":"Javascript",
+        "image":"javascript.png"
+      },
+      {
+        "name":"Webpack",
+        "image":"webpack.png"
+      },
+      {
+        "name":"Vite",
         "level":"100%"
       },
       {
-        "name":"Css in JS",
-        "level":"100%"
+        "name":"GIT",
+        "image":"git.png"
       },
       {
-        "name":"Unit Testing (Jest, Enzyme, React Testing Library)",
-        "level":"100%"
+        "name":"Docker",
+        "image":"docker.png"
       },
       {
-        "name":"Micro Frontends (Single SPA)",
-        "level":"70%"
+        "name":"AWS Amplify",
+        "image":"amplify.png"
+      },
+      {
+        "name":"Jest",
+        "image":"testing.png"
       }
     ]
   },
@@ -185,6 +201,12 @@
         "category":"websites",
         "image":"macondray.png",
         "url":"https://www.macondrayfinance.ph/login/headoffice/1/85faa661fe48fe9ed19b4e41b6b6f40916dff726"
+      },
+      {
+        "title":"Simplify Online Loan Application",
+        "category":"websites",
+        "image":"simplify.png",
+        "url":"https://apply.simplify.com.au/"
       }
     ]
   }
