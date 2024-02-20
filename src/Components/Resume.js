@@ -59,8 +59,16 @@ class Resume extends Component {
       let skillImage = "images/skills/" + skills.image;
 
       return (
-        <div>
-          <Zmage alt={skills.name} src={skillImage} width={50} />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            width: "120px",
+            height: "100px"
+          }}
+        >
+          <Zmage alt={skills.name} src={skillImage} />
           <div>{skills.name}</div>
         </div>
       );
